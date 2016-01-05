@@ -88,7 +88,7 @@ bool AndroidAccessory::switchDevice(byte addr)
 {
     int protocol = getProtocol(addr);
 
-    if (protocol == 1) {
+    if (protocol == 1 || protocol == 2){
         Serial.print(F("device supports protcol 1\n"));
     } else {
         Serial.print(F("could not read device protocol version\n"));
