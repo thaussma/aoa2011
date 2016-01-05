@@ -1,0 +1,26 @@
+{
+  "name": "aoa2011",
+  "keywords": "adk, android, aoa, usbhost, usb-host, usb, MAX3421E, megaADK",
+  "description": "Android Open Accessory Library for the Arduino Mega ADK",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/thaussma/aoa2011.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr",
+  "authors":
+  [
+    {
+      "name": "Oleg Mazurov, Circuits At Home",
+      "url": "http://www.circuitsathome.com"
+    },
+    {
+      "name": "Google, Inc. 2011"
+    },
+    {
+      "name": "Follower",
+      "url": "RancidBacon.com"
+    }
+  ]
+}
